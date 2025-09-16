@@ -34,7 +34,7 @@ public class OccasieWagen {
 
     //Afspraak: foutboodschap met 1 cijfer na de komma afbeelden
     public final void setKilometerstand(double kilometerstand) {
-        if (kilometerstand < MIN_KILOMETERSTAND || kilometerstand > MAX_KILOMETERSTAND)
+        if (kilometerstand <= MIN_KILOMETERSTAND || kilometerstand > MAX_KILOMETERSTAND)
             throw new IllegalArgumentException(String.format("De kilometerstand moet tussen %.1f en %.1f liggen",
                     MIN_KILOMETERSTAND, MAX_KILOMETERSTAND));
 
