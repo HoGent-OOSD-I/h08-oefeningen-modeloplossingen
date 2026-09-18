@@ -7,8 +7,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import main.java.domein.Gebruiker;
-
 public class GebruikerTest {
 
 	@ParameterizedTest

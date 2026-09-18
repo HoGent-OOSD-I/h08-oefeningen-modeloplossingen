@@ -7,8 +7,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullAndEmptySource;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import domein.OccasieWagen;
-
 class OccasieWagenTest {
 
     private static final String GELDIG_MERK = "Abcde";

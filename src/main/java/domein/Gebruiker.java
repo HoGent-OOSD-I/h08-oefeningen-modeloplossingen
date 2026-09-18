@@ -1,4 +1,4 @@
-package main.java.domein;
+package domein;
 
 public class Gebruiker {
 	private String gebruikersnaam;
